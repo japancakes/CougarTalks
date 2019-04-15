@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "823539527699",
+    "firebase_url": "https://cougar-talks-dbb53.firebaseio.com",
+    "project_id": "cougar-talks-dbb53",
+    "storage_bucket": "cougar-talks-dbb53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823539527699:android:8b778160dca06c9c",
+        "android_client_info": {
+          "package_name": "com.cougartalks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823539527699-uvrdc8s0c78e63cd9rl3v67vdnhu498b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cougartalks",
+            "certificate_hash": "eda82a3e3c14bdb34acd08f665a620b2466d6d10"
+          }
+        },
+        {
+          "client_id": "823539527699-9utch9fvkn0m2ruclnqnl2e9d2i7ts6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5H7xfP8SXrxzOiv0bB0YwkHLERuPU2k8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823539527699-9utch9fvkn0m2ruclnqnl2e9d2i7ts6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
