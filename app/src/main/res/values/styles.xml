@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#2a75ed</item>
         <item name="colorPrimaryDark">#2940ed</item>
@@ -27,5 +27,7 @@
         <item name="android:textColor">#ff0000</item>
         <item name="android:textSize">20sp</item>
     </style>
+
+    <style name="AlertDialog" parent="Base.Theme.AppCompat.Light.Dialog"></style>
 
 </resources>
