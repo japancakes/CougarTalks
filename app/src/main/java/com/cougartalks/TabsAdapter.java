@@ -30,6 +30,10 @@ public class TabsAdapter extends FragmentPagerAdapter
                 FriendsFragment friendsFragment = new FriendsFragment();
                 return friendsFragment;
 
+            case 3:
+                RequestsFragment requestsFragment = new RequestsFragment();
+                return requestsFragment;
+
             default:
                 return null;
         }
@@ -37,8 +41,9 @@ public class TabsAdapter extends FragmentPagerAdapter
     }
 
     @Override
-    public int getCount() {
-        return 3;
+    public int getCount()
+    {
+        return 4;
     }
 
     @Nullable
@@ -55,6 +60,9 @@ public class TabsAdapter extends FragmentPagerAdapter
 
             case 2:
                 return "Friends";
+
+            case 3:
+                return "Requests";
 
             default:
                 return null;
