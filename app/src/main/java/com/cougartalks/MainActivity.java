@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mAuth = FirebaseAuth.getInstance();
-        currentUserID = mAuth.getCurrentUser().getUid();
         RootRef = FirebaseDatabase.getInstance().getReference();
 
         mToolbar = (Toolbar) findViewById(R.id.main_page_toolbar);
@@ -116,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (dataSnapshot.child("name").exists())
                 {
-                    Toast.makeText(MainActivity.this, "Welcome", Toast.LENGTH_SHORT).show();
+
                 }
                 else
                 {
@@ -241,6 +240,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void updateUserStatus(String state)
     {
+        currentUserID = mAuth.getCurrentUser().getUid();
         String saveCurrentTime, saveCurrentDate;
 
         Calendar calendar = Calendar.getInstance();
